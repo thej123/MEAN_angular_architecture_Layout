@@ -1,0 +1,19 @@
+body {
+    background-color: lightgreen;
+    /* display: flex; */
+}
+
+app-nav {
+    display: inline-block;
+    vertical-align: top;
+    width: 200px;
+}
+
+app-main {
+    display: inline-block;
+    vertical-align: top;
+    /* margin-left: 300px; */
+    /* flex: 1; */
+    width: 700px;
+}
+

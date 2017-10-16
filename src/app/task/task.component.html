@@ -1,0 +1,6 @@
+<p>
+  task works!
+  {{ tasks | json }}
+</p>
+
+<app-task-list [myTasks]='tasks' (myEvent)="invoked()"></app-task-list>
